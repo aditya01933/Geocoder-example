@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @region.country %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @region.state %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @region.city %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @region.zipcode %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @region.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @region.longitude %>
+</p>
+
+<%= link_to 'Edit', edit_region_path(@region) %> |
+<%= link_to 'Back', regions_path %>
